@@ -21,5 +21,5 @@ if (p==0) {
 	}
 else
 	{
-		println num+' es impar'	
+		println num+' es impar porque el resto de dividir en 2 no es cero'	
 	}

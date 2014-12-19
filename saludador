@@ -17,7 +17,7 @@ else if (hora_actual < 12) {
 def num=7
 p=num%2
 if (p==0) {
-		println num+' es par'
+		println num+' es par porque resto de dividir en 2 es cero'
 	}
 else
 	{

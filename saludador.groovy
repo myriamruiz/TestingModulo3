@@ -1,0 +1,24 @@
+//Mejorar el ejemplo del programa que saluda para que entre las 0hs y las 5hs también diga Buenas noches.
+def hora_actual = new Date().hours
+if (hora_actual < 5) {
+println "Buenas Noches"
+}
+else if (hora_actual < 12) {
+println "Buenos Dias"
+}
+else if (hora_actual < 19) {
+println "Buenas tardes"
+}
+else {
+println "Buenas noches"
+}
+//Hacer un programa que pueda determinar si un número es par o impar. (Pista: existe un operador llamado módulo que dice el resto de la división de dos números, por ejemplo 8 % 5 == 3)
+def num=7
+p=num%2
+if (p==0) {
+println num+' es par porque resto de dividir en 2 es cero'
+}
+else
+{
+println num+' es impar porque el resto de dividir en 2 no es cero'
+}

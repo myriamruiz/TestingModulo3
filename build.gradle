@@ -1,0 +1,7 @@
+apply puglin 'groovy'
+repositories {
+  mavenCentral
+}
+dependencies {
+  compile 'org.codehaus.groovy:groovy-all2.2.3'
+}

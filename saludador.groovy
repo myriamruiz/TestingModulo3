@@ -20,5 +20,5 @@ println num+' es par porque resto de dividir en 2 es cero'
 }
 else
 {
-println num+' es impar porque el resto de dividir en 2 no es cero'
+println num+' es impar porque el resto de dividir en 2 no es cero, modificado'
 }
